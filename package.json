@@ -1,0 +1,22 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec babel-node"
+  },
+  "keywords": [],
+  "author": "batch34",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.5",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "pug": "^3.0.3"
+  }
+}
